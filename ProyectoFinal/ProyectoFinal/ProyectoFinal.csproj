@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8FB558E7-9A3F-4759-979F-4C411A353E80}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProyectoFinal</RootNamespace>
+    <AssemblyName>ProyectoFinal</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlgoritmosdeOdenamiento\Burbuja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlgoritmosdeOdenamiento\Burbuja.Designer.cs">
+      <DependentUpon>Burbuja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlgoritmosdeOdenamiento\BurbujaBidireccional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlgoritmosdeOdenamiento\BurbujaBidireccional.Designer.cs">
+      <DependentUpon>BurbujaBidireccional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EstructurasdeDatos\Arboles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EstructurasdeDatos\Arboles.Designer.cs">
+      <DependentUpon>Arboles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EstructurasdeDatos\Colas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EstructurasdeDatos\Colas.Designer.cs">
+      <DependentUpon>Colas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EstructurasdeDatos\Grafos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EstructurasdeDatos\Grafos.Designer.cs">
+      <DependentUpon>Grafos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EstructurasdeDatos\Listas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EstructurasdeDatos\Listas.Designer.cs">
+      <DependentUpon>Listas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EstructurasdeDatos\Pilas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EstructurasdeDatos\Pilas.Designer.cs">
+      <DependentUpon>Pilas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EstructurasdeDatos\TiposdeListas\ListaDoble.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EstructurasdeDatos\TiposdeListas\ListaDoble.Designer.cs">
+      <DependentUpon>ListaDoble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EstructurasdeDatos\TiposdeListas\ListaDobleCircular.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EstructurasdeDatos\TiposdeListas\ListaDobleCircular.Designer.cs">
+      <DependentUpon>ListaDobleCircular.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EstructurasdeDatos\TiposdeListas\ListaSimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EstructurasdeDatos\TiposdeListas\ListaSimple.Designer.cs">
+      <DependentUpon>ListaSimple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EstructurasdeDatos\TiposdeListas\ListaSimpleCircular.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EstructurasdeDatos\TiposdeListas\ListaSimpleCircular.Designer.cs">
+      <DependentUpon>ListaSimpleCircular.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAlgoritmos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAlgoritmos.Designer.cs">
+      <DependentUpon>MenuAlgoritmos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuEstructuras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuEstructuras.Designer.cs">
+      <DependentUpon>MenuEstructuras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EstructurasdeDatos\TiposdeListas\ListaDobleCircular.resx">
+      <DependentUpon>ListaDobleCircular.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
