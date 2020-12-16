@@ -132,6 +132,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EstructurasdeDatos\Listas.resx">
+      <DependentUpon>Listas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EstructurasdeDatos\TiposdeListas\ListaDobleCircular.resx">
       <DependentUpon>ListaDobleCircular.cs</DependentUpon>
     </EmbeddedResource>
