@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.l1 = new System.Windows.Forms.Label();
             this.l2 = new System.Windows.Forms.Label();
             this.btnAlgoritmo = new System.Windows.Forms.Button();
@@ -37,30 +38,32 @@
             // l1
             // 
             this.l1.AutoSize = true;
-            this.l1.Font = new System.Drawing.Font("Elephant", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.l1.Location = new System.Drawing.Point(119, 19);
+            this.l1.BackColor = System.Drawing.Color.Transparent;
+            this.l1.Font = new System.Drawing.Font("Elephant", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l1.ForeColor = System.Drawing.Color.Snow;
+            this.l1.Location = new System.Drawing.Point(171, 23);
             this.l1.Name = "l1";
-            this.l1.Size = new System.Drawing.Size(199, 38);
+            this.l1.Size = new System.Drawing.Size(285, 55);
             this.l1.TabIndex = 0;
             this.l1.Text = "Bienvenid@";
             // 
             // l2
             // 
             this.l2.AutoSize = true;
-            this.l2.Font = new System.Drawing.Font("Elephant", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.l2.Location = new System.Drawing.Point(92, 57);
+            this.l2.BackColor = System.Drawing.Color.Transparent;
+            this.l2.Font = new System.Drawing.Font("Elephant", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l2.ForeColor = System.Drawing.Color.Snow;
+            this.l2.Location = new System.Drawing.Point(131, 78);
             this.l2.Name = "l2";
-            this.l2.Size = new System.Drawing.Size(248, 35);
+            this.l2.Size = new System.Drawing.Size(364, 51);
             this.l2.TabIndex = 1;
             this.l2.Text = "Que desea crear?";
             // 
             // btnAlgoritmo
             // 
             this.btnAlgoritmo.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlgoritmo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btnAlgoritmo.Location = new System.Drawing.Point(241, 102);
+            this.btnAlgoritmo.ForeColor = System.Drawing.Color.PaleVioletRed;
+            this.btnAlgoritmo.Location = new System.Drawing.Point(374, 150);
             this.btnAlgoritmo.Name = "btnAlgoritmo";
             this.btnAlgoritmo.Size = new System.Drawing.Size(175, 73);
             this.btnAlgoritmo.TabIndex = 2;
@@ -70,8 +73,8 @@
             // btnEstructura
             // 
             this.btnEstructura.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEstructura.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btnEstructura.Location = new System.Drawing.Point(21, 102);
+            this.btnEstructura.ForeColor = System.Drawing.Color.PaleVioletRed;
+            this.btnEstructura.Location = new System.Drawing.Point(75, 150);
             this.btnEstructura.Name = "btnEstructura";
             this.btnEstructura.Size = new System.Drawing.Size(175, 73);
             this.btnEstructura.TabIndex = 3;
@@ -82,8 +85,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(441, 211);
+            this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(624, 272);
             this.Controls.Add(this.btnEstructura);
             this.Controls.Add(this.btnAlgoritmo);
             this.Controls.Add(this.l2);
