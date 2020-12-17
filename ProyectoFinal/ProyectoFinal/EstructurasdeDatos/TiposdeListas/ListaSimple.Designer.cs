@@ -54,11 +54,11 @@
             // 
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.BackColor = System.Drawing.Color.Snow;
-            this.lblTitulo.Font = new System.Drawing.Font("Elephant", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Font = new System.Drawing.Font("Elephant", 22.2F);
             this.lblTitulo.ForeColor = System.Drawing.Color.DarkRed;
-            this.lblTitulo.Location = new System.Drawing.Point(198, 39);
+            this.lblTitulo.Location = new System.Drawing.Point(242, 39);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(207, 37);
+            this.lblTitulo.Size = new System.Drawing.Size(255, 47);
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "Lista Simple";
             // 
@@ -66,11 +66,11 @@
             // 
             this.lblDa.AutoSize = true;
             this.lblDa.BackColor = System.Drawing.Color.Snow;
-            this.lblDa.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDa.Font = new System.Drawing.Font("Britannic Bold", 16.2F);
             this.lblDa.ForeColor = System.Drawing.Color.DarkRed;
             this.lblDa.Location = new System.Drawing.Point(24, 114);
             this.lblDa.Name = "lblDa";
-            this.lblDa.Size = new System.Drawing.Size(57, 22);
+            this.lblDa.Size = new System.Drawing.Size(79, 31);
             this.lblDa.TabIndex = 1;
             this.lblDa.Text = "Dato:";
             // 
@@ -78,11 +78,11 @@
             // 
             this.lblLista.AutoSize = true;
             this.lblLista.BackColor = System.Drawing.Color.Snow;
-            this.lblLista.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLista.Font = new System.Drawing.Font("Britannic Bold", 16.2F);
             this.lblLista.ForeColor = System.Drawing.Color.DarkRed;
-            this.lblLista.Location = new System.Drawing.Point(241, 104);
+            this.lblLista.Location = new System.Drawing.Point(273, 122);
             this.lblLista.Name = "lblLista";
-            this.lblLista.Size = new System.Drawing.Size(53, 22);
+            this.lblLista.Size = new System.Drawing.Size(73, 31);
             this.lblLista.TabIndex = 2;
             this.lblLista.Text = "Lista";
             // 
@@ -90,11 +90,11 @@
             // 
             this.lblMostrar.AutoSize = true;
             this.lblMostrar.BackColor = System.Drawing.Color.Snow;
-            this.lblMostrar.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMostrar.Font = new System.Drawing.Font("Britannic Bold", 16.2F);
             this.lblMostrar.ForeColor = System.Drawing.Color.DarkRed;
-            this.lblMostrar.Location = new System.Drawing.Point(241, 142);
+            this.lblMostrar.Location = new System.Drawing.Point(273, 160);
             this.lblMostrar.Name = "lblMostrar";
-            this.lblMostrar.Size = new System.Drawing.Size(45, 22);
+            this.lblMostrar.Size = new System.Drawing.Size(63, 31);
             this.lblMostrar.TabIndex = 3;
             this.lblMostrar.Text = "-------";
             // 
@@ -102,24 +102,24 @@
             // 
             this.lblBo.AutoSize = true;
             this.lblBo.BackColor = System.Drawing.Color.Snow;
-            this.lblBo.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBo.Font = new System.Drawing.Font("Britannic Bold", 16.2F);
             this.lblBo.ForeColor = System.Drawing.Color.DarkRed;
-            this.lblBo.Location = new System.Drawing.Point(37, 380);
+            this.lblBo.Location = new System.Drawing.Point(24, 380);
             this.lblBo.Name = "lblBo";
-            this.lblBo.Size = new System.Drawing.Size(140, 22);
+            this.lblBo.Size = new System.Drawing.Size(191, 31);
             this.lblBo.TabIndex = 4;
             this.lblBo.Text = "Dato a borrar:";
             // 
             // txtNodo
             // 
-            this.txtNodo.Location = new System.Drawing.Point(87, 114);
+            this.txtNodo.Location = new System.Drawing.Point(124, 122);
             this.txtNodo.Name = "txtNodo";
-            this.txtNodo.Size = new System.Drawing.Size(107, 22);
+            this.txtNodo.Size = new System.Drawing.Size(111, 22);
             this.txtNodo.TabIndex = 5;
             // 
             // txtDatoBorrar
             // 
-            this.txtDatoBorrar.Location = new System.Drawing.Point(207, 380);
+            this.txtDatoBorrar.Location = new System.Drawing.Point(227, 388);
             this.txtDatoBorrar.Name = "txtDatoBorrar";
             this.txtDatoBorrar.Size = new System.Drawing.Size(100, 22);
             this.txtDatoBorrar.TabIndex = 6;
@@ -127,11 +127,11 @@
             // btnGuardar
             // 
             this.btnGuardar.BackColor = System.Drawing.Color.Snow;
-            this.btnGuardar.Font = new System.Drawing.Font("Modern No. 20", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold);
             this.btnGuardar.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnGuardar.Location = new System.Drawing.Point(62, 156);
+            this.btnGuardar.Location = new System.Drawing.Point(24, 167);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(98, 70);
+            this.btnGuardar.Size = new System.Drawing.Size(211, 53);
             this.btnGuardar.TabIndex = 7;
             this.btnGuardar.Text = "Guardar y mostrar";
             this.btnGuardar.UseVisualStyleBackColor = false;
@@ -140,11 +140,11 @@
             // btnEliminarLista
             // 
             this.btnEliminarLista.BackColor = System.Drawing.Color.Snow;
-            this.btnEliminarLista.Font = new System.Drawing.Font("Modern No. 20", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarLista.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold);
             this.btnEliminarLista.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnEliminarLista.Location = new System.Drawing.Point(62, 241);
+            this.btnEliminarLista.Location = new System.Drawing.Point(24, 243);
             this.btnEliminarLista.Name = "btnEliminarLista";
-            this.btnEliminarLista.Size = new System.Drawing.Size(98, 70);
+            this.btnEliminarLista.Size = new System.Drawing.Size(211, 53);
             this.btnEliminarLista.TabIndex = 8;
             this.btnEliminarLista.Text = "Eliminar lista";
             this.btnEliminarLista.UseVisualStyleBackColor = false;
@@ -155,9 +155,9 @@
             this.btnBorrar.BackColor = System.Drawing.Color.Snow;
             this.btnBorrar.Font = new System.Drawing.Font("Modern No. 20", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBorrar.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnBorrar.Location = new System.Drawing.Point(333, 376);
+            this.btnBorrar.Location = new System.Drawing.Point(353, 378);
             this.btnBorrar.Name = "btnBorrar";
-            this.btnBorrar.Size = new System.Drawing.Size(85, 32);
+            this.btnBorrar.Size = new System.Drawing.Size(85, 40);
             this.btnBorrar.TabIndex = 9;
             this.btnBorrar.Text = "Borrar";
             this.btnBorrar.UseVisualStyleBackColor = false;
@@ -166,9 +166,9 @@
             // btnMostrar
             // 
             this.btnMostrar.BackColor = System.Drawing.Color.Snow;
-            this.btnMostrar.Font = new System.Drawing.Font("Modern No. 20", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMostrar.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold);
             this.btnMostrar.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnMostrar.Location = new System.Drawing.Point(494, 94);
+            this.btnMostrar.Location = new System.Drawing.Point(561, 109);
             this.btnMostrar.Name = "btnMostrar";
             this.btnMostrar.Size = new System.Drawing.Size(98, 45);
             this.btnMostrar.TabIndex = 10;
@@ -179,9 +179,9 @@
             // btnContar
             // 
             this.btnContar.BackColor = System.Drawing.Color.Snow;
-            this.btnContar.Font = new System.Drawing.Font("Modern No. 20", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnContar.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold);
             this.btnContar.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnContar.Location = new System.Drawing.Point(494, 156);
+            this.btnContar.Location = new System.Drawing.Point(561, 171);
             this.btnContar.Name = "btnContar";
             this.btnContar.Size = new System.Drawing.Size(98, 45);
             this.btnContar.TabIndex = 11;
@@ -192,9 +192,9 @@
             // btnCargar
             // 
             this.btnCargar.BackColor = System.Drawing.Color.Snow;
-            this.btnCargar.Font = new System.Drawing.Font("Modern No. 20", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCargar.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold);
             this.btnCargar.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnCargar.Location = new System.Drawing.Point(494, 221);
+            this.btnCargar.Location = new System.Drawing.Point(561, 236);
             this.btnCargar.Name = "btnCargar";
             this.btnCargar.Size = new System.Drawing.Size(98, 45);
             this.btnCargar.TabIndex = 12;
@@ -205,9 +205,9 @@
             // btnGuardarArchivo
             // 
             this.btnGuardarArchivo.BackColor = System.Drawing.Color.Snow;
-            this.btnGuardarArchivo.Font = new System.Drawing.Font("Modern No. 20", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardarArchivo.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold);
             this.btnGuardarArchivo.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnGuardarArchivo.Location = new System.Drawing.Point(494, 286);
+            this.btnGuardarArchivo.Location = new System.Drawing.Point(561, 301);
             this.btnGuardarArchivo.Name = "btnGuardarArchivo";
             this.btnGuardarArchivo.Size = new System.Drawing.Size(98, 45);
             this.btnGuardarArchivo.TabIndex = 13;
@@ -217,6 +217,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Snow;
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -225,7 +226,7 @@
             this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(628, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(702, 28);
             this.menuStrip1.TabIndex = 14;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -255,7 +256,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(628, 444);
+            this.ClientSize = new System.Drawing.Size(702, 444);
             this.Controls.Add(this.btnGuardarArchivo);
             this.Controls.Add(this.btnCargar);
             this.Controls.Add(this.btnContar);
@@ -273,6 +274,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "ListaSimple";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lista Simple";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

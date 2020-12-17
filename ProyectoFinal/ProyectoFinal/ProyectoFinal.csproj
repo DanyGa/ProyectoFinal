@@ -88,6 +88,7 @@
     <Compile Include="EstructurasdeDatos\Pilas.Designer.cs">
       <DependentUpon>Pilas.cs</DependentUpon>
     </Compile>
+    <Compile Include="EstructurasdeDatos\TiposdeListas\CListaDoble\LD.cs" />
     <Compile Include="EstructurasdeDatos\TiposdeListas\CListaSimple\LS.cs" />
     <Compile Include="EstructurasdeDatos\TiposdeListas\ListaDoble.cs">
       <SubType>Form</SubType>
