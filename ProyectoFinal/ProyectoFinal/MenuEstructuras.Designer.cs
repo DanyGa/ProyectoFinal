@@ -61,6 +61,7 @@
             this.btnListas.TabIndex = 1;
             this.btnListas.Text = "Listas";
             this.btnListas.UseVisualStyleBackColor = false;
+            this.btnListas.Click += new System.EventHandler(this.btnListas_Click);
             // 
             // btnGrafo
             // 
@@ -73,6 +74,7 @@
             this.btnGrafo.TabIndex = 2;
             this.btnGrafo.Text = "Grafo";
             this.btnGrafo.UseVisualStyleBackColor = false;
+            this.btnGrafo.Click += new System.EventHandler(this.btnGrafo_Click);
             // 
             // btnPila
             // 
@@ -85,6 +87,7 @@
             this.btnPila.TabIndex = 3;
             this.btnPila.Text = "Pila";
             this.btnPila.UseVisualStyleBackColor = false;
+            this.btnPila.Click += new System.EventHandler(this.btnPila_Click);
             // 
             // btnArbol
             // 
@@ -97,6 +100,7 @@
             this.btnArbol.TabIndex = 4;
             this.btnArbol.Text = "Arbol";
             this.btnArbol.UseVisualStyleBackColor = false;
+            this.btnArbol.Click += new System.EventHandler(this.btnArbol_Click);
             // 
             // btnCola
             // 
@@ -109,6 +113,7 @@
             this.btnCola.TabIndex = 5;
             this.btnCola.Text = "Cola";
             this.btnCola.UseVisualStyleBackColor = false;
+            this.btnCola.Click += new System.EventHandler(this.btnCola_Click);
             // 
             // label1
             // 
@@ -118,7 +123,7 @@
             this.label1.ForeColor = System.Drawing.Color.Olive;
             this.label1.Location = new System.Drawing.Point(141, 99);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(342, 25);
+            this.label1.Size = new System.Drawing.Size(366, 25);
             this.label1.TabIndex = 6;
             this.label1.Text = "Selecciona un tipo de Estructura";
             // 

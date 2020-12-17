@@ -70,6 +70,7 @@
             this.btnAlgoritmo.TabIndex = 2;
             this.btnAlgoritmo.Text = "Algoritmo de Ordenamiento";
             this.btnAlgoritmo.UseVisualStyleBackColor = false;
+            this.btnAlgoritmo.Click += new System.EventHandler(this.btnAlgoritmo_Click);
             // 
             // btnEstructura
             // 
@@ -82,6 +83,7 @@
             this.btnEstructura.TabIndex = 3;
             this.btnEstructura.Text = "Estructura de Datos";
             this.btnEstructura.UseVisualStyleBackColor = false;
+            this.btnEstructura.Click += new System.EventHandler(this.btnEstructura_Click);
             // 
             // Menu
             // 
