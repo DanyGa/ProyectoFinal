@@ -21,14 +21,12 @@ namespace ProyectoFinal
         {
             MenuAlgoritmos abrir = new MenuAlgoritmos();
             abrir.Show();
-            this.Hide();
         }
 
         private void btnEstructura_Click(object sender, EventArgs e)
         {
             MenuEstructuras aperto = new MenuEstructuras();
             aperto.Show();
-            this.Hide();
         }
     }
 }

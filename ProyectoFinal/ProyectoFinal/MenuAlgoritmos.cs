@@ -16,5 +16,19 @@ namespace ProyectoFinal
         {
             InitializeComponent();
         }
+
+        private void btnBurbuja_Click(object sender, EventArgs e)
+        {
+            AlgoritmosdeOdenamiento.Burbuja il = new AlgoritmosdeOdenamiento.Burbuja();
+            il.Show();
+            this.Close();
+        }
+
+        private void btnBurbujaB_Click(object sender, EventArgs e)
+        {
+            AlgoritmosdeOdenamiento.BurbujaBidireccional i = new AlgoritmosdeOdenamiento.BurbujaBidireccional();
+            i.Show();
+            this.Close();
+        }
     }
 }

@@ -60,6 +60,7 @@
             this.btnSimple.TabIndex = 1;
             this.btnSimple.Text = "Lista Simple";
             this.btnSimple.UseVisualStyleBackColor = false;
+            this.btnSimple.Click += new System.EventHandler(this.btnSimple_Click);
             // 
             // btnDoble
             // 
@@ -72,6 +73,7 @@
             this.btnDoble.TabIndex = 2;
             this.btnDoble.Text = "Lista Doble";
             this.btnDoble.UseVisualStyleBackColor = false;
+            this.btnDoble.Click += new System.EventHandler(this.btnDoble_Click);
             // 
             // btnSimpleCircular
             // 
@@ -84,6 +86,7 @@
             this.btnSimpleCircular.TabIndex = 3;
             this.btnSimpleCircular.Text = "Lista Simple Circular";
             this.btnSimpleCircular.UseVisualStyleBackColor = false;
+            this.btnSimpleCircular.Click += new System.EventHandler(this.btnSimpleCircular_Click);
             // 
             // btnDobleCircular
             // 
@@ -96,6 +99,7 @@
             this.btnDobleCircular.TabIndex = 4;
             this.btnDobleCircular.Text = "Lista Doble Circular";
             this.btnDobleCircular.UseVisualStyleBackColor = false;
+            this.btnDobleCircular.Click += new System.EventHandler(this.btnDobleCircular_Click);
             // 
             // lI
             // 
@@ -122,6 +126,7 @@
             this.Controls.Add(this.btnSimple);
             this.Controls.Add(this.lL);
             this.Name = "Listas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Listas";
             this.ResumeLayout(false);
             this.PerformLayout();

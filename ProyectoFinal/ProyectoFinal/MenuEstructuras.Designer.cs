@@ -141,6 +141,7 @@
             this.Controls.Add(this.btnListas);
             this.Controls.Add(this.lEs);
             this.Name = "MenuEstructuras";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Estructuras de Datos";
             this.ResumeLayout(false);
             this.PerformLayout();

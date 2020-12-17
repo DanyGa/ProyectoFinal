@@ -47,16 +47,9 @@
             this.lIntercambios = new System.Windows.Forms.Label();
             this.lCom = new System.Windows.Forms.Label();
             this.lInt = new System.Windows.Forms.Label();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.algoritmosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.estructurasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.burbujaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pilasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.colasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.arbolesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.gbTiempo.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -79,7 +72,7 @@
             this.lNum.BackColor = System.Drawing.Color.Transparent;
             this.lNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lNum.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lNum.Location = new System.Drawing.Point(27, 99);
+            this.lNum.Location = new System.Drawing.Point(27, 120);
             this.lNum.Name = "lNum";
             this.lNum.Size = new System.Drawing.Size(82, 18);
             this.lNum.TabIndex = 1;
@@ -91,7 +84,7 @@
             this.lMin.BackColor = System.Drawing.Color.Transparent;
             this.lMin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lMin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lMin.Location = new System.Drawing.Point(27, 145);
+            this.lMin.Location = new System.Drawing.Point(27, 166);
             this.lMin.Name = "lMin";
             this.lMin.Size = new System.Drawing.Size(118, 18);
             this.lMin.TabIndex = 2;
@@ -103,7 +96,7 @@
             this.lMax.BackColor = System.Drawing.Color.Transparent;
             this.lMax.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lMax.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lMax.Location = new System.Drawing.Point(27, 196);
+            this.lMax.Location = new System.Drawing.Point(27, 217);
             this.lMax.Name = "lMax";
             this.lMax.Size = new System.Drawing.Size(122, 18);
             this.lMax.TabIndex = 3;
@@ -129,21 +122,21 @@
             // 
             // txtNum
             // 
-            this.txtNum.Location = new System.Drawing.Point(115, 98);
+            this.txtNum.Location = new System.Drawing.Point(132, 119);
             this.txtNum.Name = "txtNum";
             this.txtNum.Size = new System.Drawing.Size(100, 22);
             this.txtNum.TabIndex = 6;
             // 
             // txtMax
             // 
-            this.txtMax.Location = new System.Drawing.Point(155, 195);
+            this.txtMax.Location = new System.Drawing.Point(172, 216);
             this.txtMax.Name = "txtMax";
             this.txtMax.Size = new System.Drawing.Size(100, 22);
             this.txtMax.TabIndex = 7;
             // 
             // txtMin
             // 
-            this.txtMin.Location = new System.Drawing.Point(151, 144);
+            this.txtMin.Location = new System.Drawing.Point(168, 165);
             this.txtMin.Name = "txtMin";
             this.txtMin.Size = new System.Drawing.Size(100, 22);
             this.txtMin.TabIndex = 8;
@@ -153,7 +146,7 @@
             this.btnGenerar.BackColor = System.Drawing.Color.Snow;
             this.btnGenerar.Font = new System.Drawing.Font("Elephant", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGenerar.ForeColor = System.Drawing.Color.Maroon;
-            this.btnGenerar.Location = new System.Drawing.Point(102, 243);
+            this.btnGenerar.Location = new System.Drawing.Point(104, 259);
             this.btnGenerar.Name = "btnGenerar";
             this.btnGenerar.Size = new System.Drawing.Size(128, 40);
             this.btnGenerar.TabIndex = 9;
@@ -187,7 +180,7 @@
             this.gbTiempo.ForeColor = System.Drawing.Color.Maroon;
             this.gbTiempo.Location = new System.Drawing.Point(30, 321);
             this.gbTiempo.Name = "gbTiempo";
-            this.gbTiempo.Size = new System.Drawing.Size(248, 124);
+            this.gbTiempo.Size = new System.Drawing.Size(300, 124);
             this.gbTiempo.TabIndex = 11;
             this.gbTiempo.TabStop = false;
             this.gbTiempo.Text = "Tiempo de ejecucion:";
@@ -249,6 +242,20 @@
             this.lInt.TabIndex = 0;
             this.lInt.Text = "Intercambios:";
             // 
+            // algoritmosToolStripMenuItem
+            // 
+            this.algoritmosToolStripMenuItem.Name = "algoritmosToolStripMenuItem";
+            this.algoritmosToolStripMenuItem.Size = new System.Drawing.Size(98, 24);
+            this.algoritmosToolStripMenuItem.Text = "Algoritmos";
+            this.algoritmosToolStripMenuItem.Click += new System.EventHandler(this.algoritmosToolStripMenuItem_Click);
+            // 
+            // estructurasToolStripMenuItem
+            // 
+            this.estructurasToolStripMenuItem.Name = "estructurasToolStripMenuItem";
+            this.estructurasToolStripMenuItem.Size = new System.Drawing.Size(98, 24);
+            this.estructurasToolStripMenuItem.Text = "Estructuras";
+            this.estructurasToolStripMenuItem.Click += new System.EventHandler(this.estructurasToolStripMenuItem_Click);
+            // 
             // menuStrip1
             // 
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -258,78 +265,16 @@
             this.estructurasToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(595, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(654, 28);
             this.menuStrip1.TabIndex = 12;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // algoritmosToolStripMenuItem
-            // 
-            this.algoritmosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.burbujaToolStripMenuItem});
-            this.algoritmosToolStripMenuItem.Name = "algoritmosToolStripMenuItem";
-            this.algoritmosToolStripMenuItem.Size = new System.Drawing.Size(98, 24);
-            this.algoritmosToolStripMenuItem.Text = "Algoritmos";
-            // 
-            // estructurasToolStripMenuItem
-            // 
-            this.estructurasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.listaToolStripMenuItem,
-            this.pilasToolStripMenuItem,
-            this.colasToolStripMenuItem,
-            this.toolStripSeparator1,
-            this.toolStripMenuItem2,
-            this.arbolesToolStripMenuItem});
-            this.estructurasToolStripMenuItem.Name = "estructurasToolStripMenuItem";
-            this.estructurasToolStripMenuItem.Size = new System.Drawing.Size(98, 24);
-            this.estructurasToolStripMenuItem.Text = "Estructuras";
-            // 
-            // burbujaToolStripMenuItem
-            // 
-            this.burbujaToolStripMenuItem.Name = "burbujaToolStripMenuItem";
-            this.burbujaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.burbujaToolStripMenuItem.Text = "Burbuja";
-            // 
-            // listaToolStripMenuItem
-            // 
-            this.listaToolStripMenuItem.Name = "listaToolStripMenuItem";
-            this.listaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.listaToolStripMenuItem.Text = "Listas";
-            // 
-            // pilasToolStripMenuItem
-            // 
-            this.pilasToolStripMenuItem.Name = "pilasToolStripMenuItem";
-            this.pilasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.pilasToolStripMenuItem.Text = "Pilas";
-            // 
-            // colasToolStripMenuItem
-            // 
-            this.colasToolStripMenuItem.Name = "colasToolStripMenuItem";
-            this.colasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.colasToolStripMenuItem.Text = "Colas";
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(224, 26);
-            this.toolStripMenuItem2.Text = "Grafos";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(221, 6);
-            // 
-            // arbolesToolStripMenuItem
-            // 
-            this.arbolesToolStripMenuItem.Name = "arbolesToolStripMenuItem";
-            this.arbolesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.arbolesToolStripMenuItem.Text = "Arboles";
             // 
             // BurbujaBidireccional
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(595, 471);
+            this.ClientSize = new System.Drawing.Size(654, 471);
             this.Controls.Add(this.gbTiempo);
             this.Controls.Add(this.btnOrdenar);
             this.Controls.Add(this.btnGenerar);
@@ -345,6 +290,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "BurbujaBidireccional";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Burbuja Bidireccional";
             this.gbTiempo.ResumeLayout(false);
             this.gbTiempo.PerformLayout();
@@ -375,15 +321,8 @@
         private System.Windows.Forms.Label lIntercambios;
         private System.Windows.Forms.Label lCom;
         private System.Windows.Forms.Label lInt;
-        private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem algoritmosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem burbujaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem estructurasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem listaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pilasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem colasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem arbolesToolStripMenuItem;
+        private System.Windows.Forms.MenuStrip menuStrip1;
     }
 }

@@ -123,5 +123,19 @@ namespace ProyectoFinal.AlgoritmosdeOdenamiento
             btnGenerar.Enabled = true;
             btnOrdenar.Enabled = false;
         }
+
+        private void algoritmosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MenuAlgoritmos paransaek = new MenuAlgoritmos();
+            paransaek.Show();
+            this.Close();
+        }
+
+        private void estructurasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MenuEstructuras ppalgansaek = new MenuEstructuras();
+            ppalgansaek.Show();
+            this.Close();
+        }
     }
 }

@@ -58,6 +58,7 @@
             this.btnBurbuja.TabIndex = 1;
             this.btnBurbuja.Text = "Burbuja";
             this.btnBurbuja.UseVisualStyleBackColor = false;
+            this.btnBurbuja.Click += new System.EventHandler(this.btnBurbuja_Click);
             // 
             // btnBurbujaB
             // 
@@ -70,6 +71,7 @@
             this.btnBurbujaB.TabIndex = 2;
             this.btnBurbujaB.Text = "Burbuja Bidireccional";
             this.btnBurbujaB.UseVisualStyleBackColor = false;
+            this.btnBurbujaB.Click += new System.EventHandler(this.btnBurbujaB_Click);
             // 
             // label1
             // 
@@ -94,6 +96,7 @@
             this.Controls.Add(this.btnBurbuja);
             this.Controls.Add(this.lAl);
             this.Name = "MenuAlgoritmos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Algoritmos de Ordenamiento";
             this.ResumeLayout(false);
             this.PerformLayout();
