@@ -161,6 +161,9 @@
     <EmbeddedResource Include="EstructurasdeDatos\TiposdeListas\ListaDobleCircular.resx">
       <DependentUpon>ListaDobleCircular.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EstructurasdeDatos\TiposdeListas\ListaSimple.resx">
+      <DependentUpon>ListaSimple.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EstructurasdeDatos\TiposdeListas\ListaSimpleCircular.resx">
       <DependentUpon>ListaSimpleCircular.cs</DependentUpon>
     </EmbeddedResource>
