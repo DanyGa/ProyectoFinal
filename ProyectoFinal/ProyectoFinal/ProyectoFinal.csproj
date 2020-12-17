@@ -88,6 +88,7 @@
     <Compile Include="EstructurasdeDatos\Pilas.Designer.cs">
       <DependentUpon>Pilas.cs</DependentUpon>
     </Compile>
+    <Compile Include="EstructurasdeDatos\TiposdeListas\CListaSimple\LS.cs" />
     <Compile Include="EstructurasdeDatos\TiposdeListas\ListaDoble.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +113,7 @@
     <Compile Include="EstructurasdeDatos\TiposdeListas\ListaSimpleCircular.Designer.cs">
       <DependentUpon>ListaSimpleCircular.cs</DependentUpon>
     </Compile>
+    <Compile Include="EstructurasdeDatos\TiposdeListas\Nodo.cs" />
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -158,9 +160,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EstructurasdeDatos\TiposdeListas\ListaDobleCircular.resx">
       <DependentUpon>ListaDobleCircular.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EstructurasdeDatos\TiposdeListas\ListaSimple.resx">
-      <DependentUpon>ListaSimple.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EstructurasdeDatos\TiposdeListas\ListaSimpleCircular.resx">
       <DependentUpon>ListaSimpleCircular.cs</DependentUpon>
