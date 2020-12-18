@@ -214,6 +214,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="EstructurasdeDatos\CArboles\" />
+    <Folder Include="EstructurasdeDatos\CGrafos\" />
     <Folder Include="EstructurasdeDatos\TiposdeListas\CListaDobleCircular\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
