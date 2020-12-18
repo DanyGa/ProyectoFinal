@@ -18,43 +18,37 @@ namespace ProyectoFinal.AlgoritmosdeOdenamiento
             InitializeComponent();
         }
 
-        int aux;
-        int comparaciones = 0;
-        int intercambios = 0;
+        int n;
+        int may;
+        int men;
+        int i;       
         int[] lista;
+        Stopwatch contador = new Stopwatch();
 
-        public void Agregar(int rango, int may, int men)
+        public void Agregar(int n, int men, int may)
         {
-            lista = new int[rango];
-            Random random = new Random();
-            for (int i = 0; i < lista.Length; i++)
+            lista = new int[n];
+            Random aleatorio = new Random();
+            for (i = 0; i < lista.Length; i++)
             {
-                lista[i] = random.Next(men, may);
+                lista[i] = aleatorio.Next(men, may);
+
             }
         }
 
-        public string Mostrar()
+        public void Mostrar(ListBox l)
         {
-            string numeros = "";
-            if (lista.Length != 0)
+            for (i = 0; i < lista.Length; i++)
             {
-                for (int i = 0; i < lista.Length; i++)
-                {
-                    numeros += lista[i] + ", ";
-                }
-                return numeros;
+                l.Items.Add(lista[i]);
             }
-            else
-            {
-                return "LA LISTA ESTÁ VACÍA.";
-            }
-
         }
 
-        public string Ordenar()
+        public string Ordenar(int n)
         {
-            Stopwatch stopwatch = new Stopwatch();
-            stopwatch.Start();
+            int aux;
+            int comparaciones = 0;
+            int intercambios = 0;
             for (int i = 1; i < lista.Length; i++)
             {
                 for (int j = 0; j < lista.Length - 1; j++)
@@ -69,35 +63,40 @@ namespace ProyectoFinal.AlgoritmosdeOdenamiento
                     }
                 }
             }
-            stopwatch.Stop();
-            string time = $"    Tiempo = {stopwatch.Elapsed.TotalMilliseconds } ms.";
-            return "Comparaciones = " + comparaciones + "  Intercambios = " + intercambios + time;
+            lblComparaciones.Text = comparaciones.ToString() + " Comparaciones";
+            lblIntercambios.Text = intercambios.ToString() + " Intercambios";
         }
 
         private void btnCrear_Click(object sender, EventArgs e)
         {
-            int tam = Convert.ToInt32(txtNum.Text);
-            int may = Convert.ToInt32(txtMay.Text);
-            int men = Convert.ToInt32(txtMen.Text);
-            Agregar(tam, may, men);
-            lblNum.Text = Mostrar();
-            txtNum.Clear();
-            txtMay.Clear();
-            txtMen.Clear();
+            try
+            {
+                lbNum.Items.Clear();
+                lbOrd.Items.Clear();
+                n = int.Parse(txtNum.Text);
+                men = int.Parse(txtMen.Text);
+                may = int.Parse(txtMay.Text);
+                Agregar(n, men, may);
+                Mostrar(lbNum);
+                btnCrear.Enabled = false;
+                btnOrdenar.Enabled = true;
+            }
+            catch
+            {
+                MessageBox.Show("Introduzca un numero valido");
+            }
         }      
 
         private void btnOrdenar_Click(object sender, EventArgs e)
         {
-            Ordenar();
-            lblOrdenado.Text = Mostrar();
-            MessageBox.Show(Ordenar());
+            contador.Restart();
+            Ordenar(n);
+            contador.Stop();
+            lblOrdenar.Text = contador.Elapsed.TotalMilliseconds.ToString() + " Milisegundos";
+            Mostrar(lbOrd);
+            btnCrear.Enabled = true;
+            btnOrdenar.Enabled = false;
 
-        }
-
-        private void btnEliminarL_Click(object sender, EventArgs e)
-        {
-            lblNum.Text = "----";
-            lblOrdenado.Text = "----";
         }
 
         private void algoritmosToolStripMenuItem_Click(object sender, EventArgs e)

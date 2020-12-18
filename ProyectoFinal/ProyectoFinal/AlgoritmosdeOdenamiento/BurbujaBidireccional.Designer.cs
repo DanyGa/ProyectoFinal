@@ -42,11 +42,11 @@
             this.btnOrdenar = new System.Windows.Forms.Button();
             this.gbTiempo = new System.Windows.Forms.GroupBox();
             this.lblOrdenar = new System.Windows.Forms.Label();
-            this.lOrd = new System.Windows.Forms.Label();
+            this.lblOrd = new System.Windows.Forms.Label();
             this.lblComparaciones = new System.Windows.Forms.Label();
             this.lblIntercambios = new System.Windows.Forms.Label();
-            this.lCom = new System.Windows.Forms.Label();
-            this.lInt = new System.Windows.Forms.Label();
+            this.lblCom = new System.Windows.Forms.Label();
+            this.lblInt = new System.Windows.Forms.Label();
             this.algoritmosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.estructurasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -172,44 +172,43 @@
             // 
             this.gbTiempo.BackColor = System.Drawing.Color.Snow;
             this.gbTiempo.Controls.Add(this.lblOrdenar);
-            this.gbTiempo.Controls.Add(this.lOrd);
+            this.gbTiempo.Controls.Add(this.lblOrd);
             this.gbTiempo.Controls.Add(this.lblComparaciones);
             this.gbTiempo.Controls.Add(this.lblIntercambios);
-            this.gbTiempo.Controls.Add(this.lCom);
-            this.gbTiempo.Controls.Add(this.lInt);
+            this.gbTiempo.Controls.Add(this.lblCom);
+            this.gbTiempo.Controls.Add(this.lblInt);
             this.gbTiempo.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbTiempo.ForeColor = System.Drawing.Color.Maroon;
-            this.gbTiempo.Location = new System.Drawing.Point(30, 321);
+            this.gbTiempo.Location = new System.Drawing.Point(30, 324);
             this.gbTiempo.Name = "gbTiempo";
             this.gbTiempo.Size = new System.Drawing.Size(300, 124);
             this.gbTiempo.TabIndex = 11;
             this.gbTiempo.TabStop = false;
-            this.gbTiempo.Text = "Tiempo de ejecucion:";
             // 
             // lblOrdenar
             // 
             this.lblOrdenar.AutoSize = true;
             this.lblOrdenar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOrdenar.Location = new System.Drawing.Point(93, 100);
+            this.lblOrdenar.Location = new System.Drawing.Point(93, 90);
             this.lblOrdenar.Name = "lblOrdenar";
             this.lblOrdenar.Size = new System.Drawing.Size(28, 17);
             this.lblOrdenar.TabIndex = 5;
             this.lblOrdenar.Text = "0:0";
             // 
-            // lOrd
+            // lblOrd
             // 
-            this.lOrd.AutoSize = true;
-            this.lOrd.Location = new System.Drawing.Point(14, 100);
-            this.lOrd.Name = "lOrd";
-            this.lOrd.Size = new System.Drawing.Size(73, 17);
-            this.lOrd.TabIndex = 4;
-            this.lOrd.Text = "Ordenar:";
+            this.lblOrd.AutoSize = true;
+            this.lblOrd.Location = new System.Drawing.Point(14, 90);
+            this.lblOrd.Name = "lblOrd";
+            this.lblOrd.Size = new System.Drawing.Size(73, 17);
+            this.lblOrd.TabIndex = 4;
+            this.lblOrd.Text = "Ordenar:";
             // 
             // lblComparaciones
             // 
             this.lblComparaciones.AutoSize = true;
             this.lblComparaciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblComparaciones.Location = new System.Drawing.Point(144, 65);
+            this.lblComparaciones.Location = new System.Drawing.Point(144, 55);
             this.lblComparaciones.Name = "lblComparaciones";
             this.lblComparaciones.Size = new System.Drawing.Size(16, 17);
             this.lblComparaciones.TabIndex = 3;
@@ -219,29 +218,29 @@
             // 
             this.lblIntercambios.AutoSize = true;
             this.lblIntercambios.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIntercambios.Location = new System.Drawing.Point(125, 31);
+            this.lblIntercambios.Location = new System.Drawing.Point(125, 21);
             this.lblIntercambios.Name = "lblIntercambios";
             this.lblIntercambios.Size = new System.Drawing.Size(16, 17);
             this.lblIntercambios.TabIndex = 2;
             this.lblIntercambios.Text = "0";
             // 
-            // lCom
+            // lblCom
             // 
-            this.lCom.AutoSize = true;
-            this.lCom.Location = new System.Drawing.Point(14, 65);
-            this.lCom.Name = "lCom";
-            this.lCom.Size = new System.Drawing.Size(124, 17);
-            this.lCom.TabIndex = 1;
-            this.lCom.Text = "Comparaciones:";
+            this.lblCom.AutoSize = true;
+            this.lblCom.Location = new System.Drawing.Point(14, 55);
+            this.lblCom.Name = "lblCom";
+            this.lblCom.Size = new System.Drawing.Size(124, 17);
+            this.lblCom.TabIndex = 1;
+            this.lblCom.Text = "Comparaciones:";
             // 
-            // lInt
+            // lblInt
             // 
-            this.lInt.AutoSize = true;
-            this.lInt.Location = new System.Drawing.Point(14, 31);
-            this.lInt.Name = "lInt";
-            this.lInt.Size = new System.Drawing.Size(105, 17);
-            this.lInt.TabIndex = 0;
-            this.lInt.Text = "Intercambios:";
+            this.lblInt.AutoSize = true;
+            this.lblInt.Location = new System.Drawing.Point(14, 21);
+            this.lblInt.Name = "lblInt";
+            this.lblInt.Size = new System.Drawing.Size(105, 17);
+            this.lblInt.TabIndex = 0;
+            this.lblInt.Text = "Intercambios:";
             // 
             // algoritmosToolStripMenuItem
             // 
@@ -326,11 +325,11 @@
         private System.Windows.Forms.Button btnOrdenar;
         private System.Windows.Forms.GroupBox gbTiempo;
         private System.Windows.Forms.Label lblOrdenar;
-        private System.Windows.Forms.Label lOrd;
+        private System.Windows.Forms.Label lblOrd;
         private System.Windows.Forms.Label lblComparaciones;
         private System.Windows.Forms.Label lblIntercambios;
-        private System.Windows.Forms.Label lCom;
-        private System.Windows.Forms.Label lInt;
+        private System.Windows.Forms.Label lblCom;
+        private System.Windows.Forms.Label lblInt;
         private System.Windows.Forms.ToolStripMenuItem algoritmosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem estructurasToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;

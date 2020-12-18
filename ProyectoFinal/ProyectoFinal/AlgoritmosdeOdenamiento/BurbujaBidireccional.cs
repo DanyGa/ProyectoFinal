@@ -44,7 +44,7 @@ namespace ProyectoFinal.AlgoritmosdeOdenamiento
             int ultimo = 0;
             int aux;
             int comparaciones = 0;
-            int intercambio = 0;
+            int intercambios = 0;
             do
             {
                 //recorrido a la derecha
@@ -57,7 +57,7 @@ namespace ProyectoFinal.AlgoritmosdeOdenamiento
                         vector[i] = vector[i + 1];
                         vector[i + 1] = aux;
                         ultimo = i;
-                        intercambio++;
+                        intercambios++;
                     }
                 }
                 der = ultimo;
@@ -72,7 +72,7 @@ namespace ProyectoFinal.AlgoritmosdeOdenamiento
                         vector[j] = vector[j - 1];
                         vector[j - 1] = aux;
                         ultimo = j;
-                        intercambio++;
+                        intercambios++;
                     }
 
                 }
@@ -81,7 +81,7 @@ namespace ProyectoFinal.AlgoritmosdeOdenamiento
             } while (izq < der);
 
             lblComparaciones.Text = comparaciones.ToString() + " Comparaciones";
-            lblIntercambios.Text = intercambio.ToString() + " Intercambios";
+            lblIntercambios.Text = intercambios.ToString() + " Intercambios";
             return;
         }
 
