@@ -22,267 +22,307 @@ Partial Class Burbuja
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.GroupBox1.SuspendLayout()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Burbuja))
+        Me.lblRMay = New System.Windows.Forms.Label()
+        Me.lblRMen = New System.Windows.Forms.Label()
+        Me.lblTNum = New System.Windows.Forms.Label()
+        Me.lblTitulo = New System.Windows.Forms.Label()
+        Me.btnCrear = New System.Windows.Forms.Button()
+        Me.btnOrdenar = New System.Windows.Forms.Button()
+        Me.txtNum = New System.Windows.Forms.TextBox()
+        Me.txtMen = New System.Windows.Forms.TextBox()
+        Me.txtMay = New System.Windows.Forms.TextBox()
+        Me.gbTiempo = New System.Windows.Forms.GroupBox()
+        Me.lblInt = New System.Windows.Forms.Label()
+        Me.lblIntercambios = New System.Windows.Forms.Label()
+        Me.lblCom = New System.Windows.Forms.Label()
+        Me.lblComparaciones = New System.Windows.Forms.Label()
+        Me.lblOrd = New System.Windows.Forms.Label()
+        Me.lblOrdenar = New System.Windows.Forms.Label()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.AlgoritmosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EstructurasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.lbNum = New System.Windows.Forms.ListBox()
+        Me.lbOrd = New System.Windows.Forms.ListBox()
+        Me.gbTiempo.SuspendLayout()
+        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Label1
+        'lblRMay
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(219, 126)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(51, 17)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Label1"
+        Me.lblRMay.AutoSize = True
+        Me.lblRMay.BackColor = System.Drawing.Color.Snow
+        Me.lblRMay.Font = New System.Drawing.Font("Britannic Bold", 13.8!)
+        Me.lblRMay.ForeColor = System.Drawing.Color.Brown
+        Me.lblRMay.Location = New System.Drawing.Point(62, 254)
+        Me.lblRMay.Name = "lblRMay"
+        Me.lblRMay.Size = New System.Drawing.Size(159, 27)
+        Me.lblRMay.TabIndex = 4
+        Me.lblRMay.Text = "Rango Mayor:"
         '
-        'Label2
+        'lblRMen
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(227, 134)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(51, 17)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Label2"
+        Me.lblRMen.AutoSize = True
+        Me.lblRMen.BackColor = System.Drawing.Color.Snow
+        Me.lblRMen.Font = New System.Drawing.Font("Britannic Bold", 13.8!)
+        Me.lblRMen.ForeColor = System.Drawing.Color.Brown
+        Me.lblRMen.Location = New System.Drawing.Point(62, 207)
+        Me.lblRMen.Name = "lblRMen"
+        Me.lblRMen.Size = New System.Drawing.Size(161, 27)
+        Me.lblRMen.TabIndex = 5
+        Me.lblRMen.Text = "Rango Menor:"
         '
-        'Label3
+        'lblTNum
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(235, 142)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(51, 17)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Label3"
+        Me.lblTNum.AutoSize = True
+        Me.lblTNum.BackColor = System.Drawing.Color.Snow
+        Me.lblTNum.Font = New System.Drawing.Font("Britannic Bold", 13.8!)
+        Me.lblTNum.ForeColor = System.Drawing.Color.Brown
+        Me.lblTNum.Location = New System.Drawing.Point(62, 161)
+        Me.lblTNum.Name = "lblTNum"
+        Me.lblTNum.Size = New System.Drawing.Size(205, 27)
+        Me.lblTNum.TabIndex = 6
+        Me.lblTNum.Text = "Total de Numeros:"
         '
-        'Label4
+        'lblTitulo
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(243, 150)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(51, 17)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "Label4"
+        Me.lblTitulo.AutoSize = True
+        Me.lblTitulo.BackColor = System.Drawing.Color.Snow
+        Me.lblTitulo.Font = New System.Drawing.Font("Elephant", 22.2!)
+        Me.lblTitulo.ForeColor = System.Drawing.Color.Brown
+        Me.lblTitulo.Location = New System.Drawing.Point(180, 72)
+        Me.lblTitulo.Name = "lblTitulo"
+        Me.lblTitulo.Size = New System.Drawing.Size(519, 49)
+        Me.lblTitulo.TabIndex = 7
+        Me.lblTitulo.Text = "Ordenamiento de Burbuja"
         '
-        'Label5
+        'btnCrear
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(251, 158)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(51, 17)
-        Me.Label5.TabIndex = 4
-        Me.Label5.Text = "Label5"
+        Me.btnCrear.BackColor = System.Drawing.Color.Snow
+        Me.btnCrear.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold)
+        Me.btnCrear.ForeColor = System.Drawing.Color.Brown
+        Me.btnCrear.Location = New System.Drawing.Point(66, 316)
+        Me.btnCrear.Name = "btnCrear"
+        Me.btnCrear.Size = New System.Drawing.Size(136, 53)
+        Me.btnCrear.TabIndex = 8
+        Me.btnCrear.Text = "Crear"
+        Me.btnCrear.UseVisualStyleBackColor = False
         '
-        'Label6
+        'btnOrdenar
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(259, 166)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(51, 17)
-        Me.Label6.TabIndex = 5
-        Me.Label6.Text = "Label6"
+        Me.btnOrdenar.BackColor = System.Drawing.Color.Snow
+        Me.btnOrdenar.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold)
+        Me.btnOrdenar.ForeColor = System.Drawing.Color.Brown
+        Me.btnOrdenar.Location = New System.Drawing.Point(242, 316)
+        Me.btnOrdenar.Name = "btnOrdenar"
+        Me.btnOrdenar.Size = New System.Drawing.Size(136, 53)
+        Me.btnOrdenar.TabIndex = 9
+        Me.btnOrdenar.Text = "Ordenar"
+        Me.btnOrdenar.UseVisualStyleBackColor = False
         '
-        'Label7
+        'txtNum
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(267, 174)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(51, 17)
-        Me.Label7.TabIndex = 6
-        Me.Label7.Text = "Label7"
+        Me.txtNum.Location = New System.Drawing.Point(289, 166)
+        Me.txtNum.Name = "txtNum"
+        Me.txtNum.Size = New System.Drawing.Size(89, 22)
+        Me.txtNum.TabIndex = 11
         '
-        'Label8
+        'txtMen
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(275, 182)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(51, 17)
-        Me.Label8.TabIndex = 7
-        Me.Label8.Text = "Label8"
+        Me.txtMen.Location = New System.Drawing.Point(242, 212)
+        Me.txtMen.Name = "txtMen"
+        Me.txtMen.Size = New System.Drawing.Size(135, 22)
+        Me.txtMen.TabIndex = 12
         '
-        'Button1
+        'txtMay
         '
-        Me.Button1.Location = New System.Drawing.Point(407, 179)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 8
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.txtMay.Location = New System.Drawing.Point(243, 259)
+        Me.txtMay.Name = "txtMay"
+        Me.txtMay.Size = New System.Drawing.Size(135, 22)
+        Me.txtMay.TabIndex = 13
         '
-        'Button2
+        'gbTiempo
         '
-        Me.Button2.Location = New System.Drawing.Point(415, 187)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 9
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.gbTiempo.BackColor = System.Drawing.Color.Snow
+        Me.gbTiempo.Controls.Add(Me.lblInt)
+        Me.gbTiempo.Controls.Add(Me.lblIntercambios)
+        Me.gbTiempo.Controls.Add(Me.lblCom)
+        Me.gbTiempo.Controls.Add(Me.lblComparaciones)
+        Me.gbTiempo.Controls.Add(Me.lblOrd)
+        Me.gbTiempo.Controls.Add(Me.lblOrdenar)
+        Me.gbTiempo.ForeColor = System.Drawing.Color.Brown
+        Me.gbTiempo.Location = New System.Drawing.Point(23, 401)
+        Me.gbTiempo.Name = "gbTiempo"
+        Me.gbTiempo.Size = New System.Drawing.Size(406, 143)
+        Me.gbTiempo.TabIndex = 14
+        Me.gbTiempo.TabStop = False
         '
-        'Button3
+        'lblInt
         '
-        Me.Button3.Location = New System.Drawing.Point(423, 195)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 10
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.lblInt.AutoSize = True
+        Me.lblInt.Font = New System.Drawing.Font("Britannic Bold", 12.0!)
+        Me.lblInt.ForeColor = System.Drawing.Color.Brown
+        Me.lblInt.Location = New System.Drawing.Point(14, 18)
+        Me.lblInt.Name = "lblInt"
+        Me.lblInt.Size = New System.Drawing.Size(133, 22)
+        Me.lblInt.TabIndex = 5
+        Me.lblInt.Text = "Intercambios:"
         '
-        'TextBox1
+        'lblIntercambios
         '
-        Me.TextBox1.Location = New System.Drawing.Point(431, 203)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox1.TabIndex = 11
+        Me.lblIntercambios.AutoSize = True
+        Me.lblIntercambios.Font = New System.Drawing.Font("Britannic Bold", 12.0!)
+        Me.lblIntercambios.ForeColor = System.Drawing.Color.Brown
+        Me.lblIntercambios.Location = New System.Drawing.Point(161, 18)
+        Me.lblIntercambios.Name = "lblIntercambios"
+        Me.lblIntercambios.Size = New System.Drawing.Size(22, 22)
+        Me.lblIntercambios.TabIndex = 4
+        Me.lblIntercambios.Text = "0"
         '
-        'TextBox2
+        'lblCom
         '
-        Me.TextBox2.Location = New System.Drawing.Point(439, 211)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox2.TabIndex = 12
+        Me.lblCom.AutoSize = True
+        Me.lblCom.Font = New System.Drawing.Font("Britannic Bold", 12.0!)
+        Me.lblCom.ForeColor = System.Drawing.Color.Brown
+        Me.lblCom.Location = New System.Drawing.Point(14, 64)
+        Me.lblCom.Name = "lblCom"
+        Me.lblCom.Size = New System.Drawing.Size(155, 22)
+        Me.lblCom.TabIndex = 3
+        Me.lblCom.Text = "Comparaciones:"
         '
-        'TextBox3
+        'lblComparaciones
         '
-        Me.TextBox3.Location = New System.Drawing.Point(447, 219)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox3.TabIndex = 13
+        Me.lblComparaciones.AutoSize = True
+        Me.lblComparaciones.Font = New System.Drawing.Font("Britannic Bold", 12.0!)
+        Me.lblComparaciones.ForeColor = System.Drawing.Color.Brown
+        Me.lblComparaciones.Location = New System.Drawing.Point(188, 64)
+        Me.lblComparaciones.Name = "lblComparaciones"
+        Me.lblComparaciones.Size = New System.Drawing.Size(22, 22)
+        Me.lblComparaciones.TabIndex = 2
+        Me.lblComparaciones.Text = "0"
         '
-        'GroupBox1
+        'lblOrd
         '
-        Me.GroupBox1.Controls.Add(Me.Label14)
-        Me.GroupBox1.Controls.Add(Me.Label13)
-        Me.GroupBox1.Controls.Add(Me.Label12)
-        Me.GroupBox1.Controls.Add(Me.Label11)
-        Me.GroupBox1.Controls.Add(Me.Label10)
-        Me.GroupBox1.Controls.Add(Me.Label9)
-        Me.GroupBox1.Location = New System.Drawing.Point(151, 322)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(200, 100)
-        Me.GroupBox1.TabIndex = 14
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "GroupBox1"
+        Me.lblOrd.AutoSize = True
+        Me.lblOrd.Font = New System.Drawing.Font("Britannic Bold", 12.0!)
+        Me.lblOrd.ForeColor = System.Drawing.Color.Brown
+        Me.lblOrd.Location = New System.Drawing.Point(18, 110)
+        Me.lblOrd.Name = "lblOrd"
+        Me.lblOrd.Size = New System.Drawing.Size(90, 22)
+        Me.lblOrd.TabIndex = 1
+        Me.lblOrd.Text = "Ordenar:"
         '
-        'Label9
+        'lblOrdenar
         '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(3, 18)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(51, 17)
-        Me.Label9.TabIndex = 0
-        Me.Label9.Text = "Label9"
+        Me.lblOrdenar.AutoSize = True
+        Me.lblOrdenar.Font = New System.Drawing.Font("Britannic Bold", 12.0!)
+        Me.lblOrdenar.ForeColor = System.Drawing.Color.Brown
+        Me.lblOrdenar.Location = New System.Drawing.Point(129, 110)
+        Me.lblOrdenar.Name = "lblOrdenar"
+        Me.lblOrdenar.Size = New System.Drawing.Size(40, 22)
+        Me.lblOrdenar.TabIndex = 0
+        Me.lblOrdenar.Text = "0:0"
         '
-        'Label10
+        'MenuStrip1
         '
-        Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(11, 26)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(59, 17)
-        Me.Label10.TabIndex = 1
-        Me.Label10.Text = "Label10"
+        Me.MenuStrip1.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AlgoritmosToolStripMenuItem, Me.EstructurasToolStripMenuItem, Me.SalirToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(875, 30)
+        Me.MenuStrip1.TabIndex = 15
+        Me.MenuStrip1.Text = "MenuStrip1"
         '
-        'Label11
+        'AlgoritmosToolStripMenuItem
         '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(19, 34)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(59, 17)
-        Me.Label11.TabIndex = 2
-        Me.Label11.Text = "Label11"
+        Me.AlgoritmosToolStripMenuItem.Name = "AlgoritmosToolStripMenuItem"
+        Me.AlgoritmosToolStripMenuItem.Size = New System.Drawing.Size(98, 26)
+        Me.AlgoritmosToolStripMenuItem.Text = "Algoritmos"
         '
-        'Label12
+        'EstructurasToolStripMenuItem
         '
-        Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(27, 42)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(59, 17)
-        Me.Label12.TabIndex = 3
-        Me.Label12.Text = "Label12"
+        Me.EstructurasToolStripMenuItem.Name = "EstructurasToolStripMenuItem"
+        Me.EstructurasToolStripMenuItem.Size = New System.Drawing.Size(98, 26)
+        Me.EstructurasToolStripMenuItem.Text = "Estructuras"
         '
-        'Label13
+        'SalirToolStripMenuItem
         '
-        Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(35, 50)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(59, 17)
-        Me.Label13.TabIndex = 4
-        Me.Label13.Text = "Label13"
+        Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(53, 26)
+        Me.SalirToolStripMenuItem.Text = "Salir"
         '
-        'Label14
+        'lbNum
         '
-        Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(43, 58)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(59, 17)
-        Me.Label14.TabIndex = 5
-        Me.Label14.Text = "Label14"
+        Me.lbNum.FormattingEnabled = True
+        Me.lbNum.ItemHeight = 16
+        Me.lbNum.Location = New System.Drawing.Point(487, 161)
+        Me.lbNum.Name = "lbNum"
+        Me.lbNum.Size = New System.Drawing.Size(110, 340)
+        Me.lbNum.TabIndex = 6
+        '
+        'lbOrd
+        '
+        Me.lbOrd.FormattingEnabled = True
+        Me.lbOrd.ItemHeight = 16
+        Me.lbOrd.Location = New System.Drawing.Point(647, 161)
+        Me.lbOrd.Name = "lbOrd"
+        Me.lbOrd.Size = New System.Drawing.Size(110, 340)
+        Me.lbOrd.TabIndex = 7
         '
         'Burbuja
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.ClientSize = New System.Drawing.Size(875, 578)
+        Me.ControlBox = False
+        Me.Controls.Add(Me.lbNum)
+        Me.Controls.Add(Me.lbOrd)
+        Me.Controls.Add(Me.gbTiempo)
+        Me.Controls.Add(Me.txtMay)
+        Me.Controls.Add(Me.txtMen)
+        Me.Controls.Add(Me.txtNum)
+        Me.Controls.Add(Me.btnOrdenar)
+        Me.Controls.Add(Me.btnCrear)
+        Me.Controls.Add(Me.lblTitulo)
+        Me.Controls.Add(Me.lblTNum)
+        Me.Controls.Add(Me.lblRMen)
+        Me.Controls.Add(Me.lblRMay)
+        Me.Controls.Add(Me.MenuStrip1)
+        Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Burbuja"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Burbuja"
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
+        Me.gbTiempo.ResumeLayout(False)
+        Me.gbTiempo.PerformLayout()
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents Label14 As Label
-    Friend WithEvents Label13 As Label
-    Friend WithEvents Label12 As Label
-    Friend WithEvents Label11 As Label
-    Friend WithEvents Label10 As Label
-    Friend WithEvents Label9 As Label
+    Friend WithEvents lblRMay As Label
+    Friend WithEvents lblRMen As Label
+    Friend WithEvents lblTNum As Label
+    Friend WithEvents lblTitulo As Label
+    Friend WithEvents btnCrear As Button
+    Friend WithEvents btnOrdenar As Button
+    Friend WithEvents txtNum As TextBox
+    Friend WithEvents txtMen As TextBox
+    Friend WithEvents txtMay As TextBox
+    Friend WithEvents gbTiempo As GroupBox
+    Friend WithEvents lblInt As Label
+    Friend WithEvents lblIntercambios As Label
+    Friend WithEvents lblCom As Label
+    Friend WithEvents lblComparaciones As Label
+    Friend WithEvents lblOrd As Label
+    Friend WithEvents lblOrdenar As Label
+    Friend WithEvents MenuStrip1 As MenuStrip
+    Friend WithEvents AlgoritmosToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EstructurasToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SalirToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents lbNum As ListBox
+    Friend WithEvents lbOrd As ListBox
 End Class

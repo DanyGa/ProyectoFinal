@@ -44,7 +44,7 @@ namespace ProyectoFinal.AlgoritmosdeOdenamiento
             }
         }
 
-        public string Ordenar(int n)
+        public void Ordenar(int n)
         {
             int aux;
             int comparaciones = 0;

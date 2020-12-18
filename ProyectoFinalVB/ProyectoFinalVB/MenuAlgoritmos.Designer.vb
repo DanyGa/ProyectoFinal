@@ -61,7 +61,7 @@ Partial Class MenuAlgoritmos
         Me.btnBurbuja.ForeColor = System.Drawing.Color.Crimson
         Me.btnBurbuja.Location = New System.Drawing.Point(48, 177)
         Me.btnBurbuja.Name = "btnBurbuja"
-        Me.btnBurbuja.Size = New System.Drawing.Size(150, 67)
+        Me.btnBurbuja.Size = New System.Drawing.Size(167, 67)
         Me.btnBurbuja.TabIndex = 2
         Me.btnBurbuja.Text = "Burbuja"
         Me.btnBurbuja.UseVisualStyleBackColor = False
@@ -73,7 +73,7 @@ Partial Class MenuAlgoritmos
         Me.btnBurbujaB.ForeColor = System.Drawing.Color.Crimson
         Me.btnBurbujaB.Location = New System.Drawing.Point(48, 265)
         Me.btnBurbujaB.Name = "btnBurbujaB"
-        Me.btnBurbujaB.Size = New System.Drawing.Size(150, 67)
+        Me.btnBurbujaB.Size = New System.Drawing.Size(167, 67)
         Me.btnBurbujaB.TabIndex = 3
         Me.btnBurbujaB.Text = "Burbuja Bidireccional"
         Me.btnBurbujaB.UseVisualStyleBackColor = False
@@ -83,9 +83,9 @@ Partial Class MenuAlgoritmos
         Me.btnCuentas.BackColor = System.Drawing.Color.Snow
         Me.btnCuentas.Font = New System.Drawing.Font("Modern No. 20", 12.0!, System.Drawing.FontStyle.Bold)
         Me.btnCuentas.ForeColor = System.Drawing.Color.Crimson
-        Me.btnCuentas.Location = New System.Drawing.Point(226, 265)
+        Me.btnCuentas.Location = New System.Drawing.Point(236, 265)
         Me.btnCuentas.Name = "btnCuentas"
-        Me.btnCuentas.Size = New System.Drawing.Size(150, 67)
+        Me.btnCuentas.Size = New System.Drawing.Size(167, 67)
         Me.btnCuentas.TabIndex = 4
         Me.btnCuentas.Text = "Cuentas"
         Me.btnCuentas.UseVisualStyleBackColor = False
@@ -95,7 +95,7 @@ Partial Class MenuAlgoritmos
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(729, 485)
+        Me.ClientSize = New System.Drawing.Size(784, 485)
         Me.Controls.Add(Me.btnCuentas)
         Me.Controls.Add(Me.btnBurbujaB)
         Me.Controls.Add(Me.btnBurbuja)

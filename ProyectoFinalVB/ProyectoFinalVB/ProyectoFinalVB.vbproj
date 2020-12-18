@@ -160,6 +160,9 @@
     <EmbeddedResource Include="AlgoritmosdeOrdenamiento\Burbuja.resx">
       <DependentUpon>Burbuja.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AlgoritmosdeOrdenamiento\BurbujaBidireccional.resx">
+      <DependentUpon>BurbujaBidireccional.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.vb</DependentUpon>
     </EmbeddedResource>

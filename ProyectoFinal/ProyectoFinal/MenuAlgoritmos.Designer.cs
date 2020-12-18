@@ -55,7 +55,7 @@
             this.btnBurbuja.ForeColor = System.Drawing.Color.Crimson;
             this.btnBurbuja.Location = new System.Drawing.Point(48, 177);
             this.btnBurbuja.Name = "btnBurbuja";
-            this.btnBurbuja.Size = new System.Drawing.Size(150, 67);
+            this.btnBurbuja.Size = new System.Drawing.Size(167, 67);
             this.btnBurbuja.TabIndex = 1;
             this.btnBurbuja.Text = "Burbuja";
             this.btnBurbuja.UseVisualStyleBackColor = false;
@@ -68,7 +68,7 @@
             this.btnBurbujaB.ForeColor = System.Drawing.Color.Crimson;
             this.btnBurbujaB.Location = new System.Drawing.Point(48, 265);
             this.btnBurbujaB.Name = "btnBurbujaB";
-            this.btnBurbujaB.Size = new System.Drawing.Size(150, 67);
+            this.btnBurbujaB.Size = new System.Drawing.Size(167, 67);
             this.btnBurbujaB.TabIndex = 2;
             this.btnBurbujaB.Text = "Burbuja Bidireccional";
             this.btnBurbujaB.UseVisualStyleBackColor = false;
@@ -91,9 +91,9 @@
             this.btnCuentas.BackColor = System.Drawing.Color.Snow;
             this.btnCuentas.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold);
             this.btnCuentas.ForeColor = System.Drawing.Color.Crimson;
-            this.btnCuentas.Location = new System.Drawing.Point(226, 265);
+            this.btnCuentas.Location = new System.Drawing.Point(236, 265);
             this.btnCuentas.Name = "btnCuentas";
-            this.btnCuentas.Size = new System.Drawing.Size(150, 67);
+            this.btnCuentas.Size = new System.Drawing.Size(167, 67);
             this.btnCuentas.TabIndex = 4;
             this.btnCuentas.Text = "Cuentas";
             this.btnCuentas.UseVisualStyleBackColor = false;
@@ -104,7 +104,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(729, 485);
+            this.ClientSize = new System.Drawing.Size(784, 485);
             this.Controls.Add(this.btnCuentas);
             this.Controls.Add(this.lblIndi);
             this.Controls.Add(this.btnBurbujaB);
