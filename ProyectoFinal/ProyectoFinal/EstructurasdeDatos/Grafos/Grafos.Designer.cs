@@ -1,4 +1,4 @@
-﻿namespace ProyectoFinal.EstructurasdeDatos
+﻿namespace ProyectoFinal.EstructurasdeDatos.Grafos
 {
     partial class Grafos
     {
@@ -28,18 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // Grafos
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Grafos";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Grafos";
-            this.ResumeLayout(false);
-
         }
 
         #endregion

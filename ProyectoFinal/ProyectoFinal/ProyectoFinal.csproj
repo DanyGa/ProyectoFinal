@@ -80,10 +80,10 @@
     </Compile>
     <Compile Include="EstructurasdeDatos\CPilas\Nodo.cs" />
     <Compile Include="EstructurasdeDatos\CPilas\Pila.cs" />
-    <Compile Include="EstructurasdeDatos\Grafos.cs">
+    <Compile Include="EstructurasdeDatos\Grafos\Grafos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EstructurasdeDatos\Grafos.Designer.cs">
+    <Compile Include="EstructurasdeDatos\Grafos\Grafos.Designer.cs">
       <DependentUpon>Grafos.cs</DependentUpon>
     </Compile>
     <Compile Include="EstructurasdeDatos\Listas.cs">
@@ -161,9 +161,6 @@
     <EmbeddedResource Include="EstructurasdeDatos\Colas.resx">
       <DependentUpon>Colas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EstructurasdeDatos\Grafos.resx">
-      <DependentUpon>Grafos.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="EstructurasdeDatos\Listas.resx">
       <DependentUpon>Listas.cs</DependentUpon>
     </EmbeddedResource>
@@ -215,7 +212,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="EstructurasdeDatos\CArboles\" />
-    <Folder Include="EstructurasdeDatos\CGrafos\" />
     <Folder Include="EstructurasdeDatos\TiposdeListas\CListaDobleCircular\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

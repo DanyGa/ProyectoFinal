@@ -143,6 +143,7 @@
             this.Name = "MenuEstructuras";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Estructuras de Datos";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MenuEstructuras_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

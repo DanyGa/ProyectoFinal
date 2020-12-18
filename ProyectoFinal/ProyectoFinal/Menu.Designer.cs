@@ -92,6 +92,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(624, 272);
+            this.ControlBox = false;
             this.Controls.Add(this.btnEstructura);
             this.Controls.Add(this.btnAlgoritmo);
             this.Controls.Add(this.lblPr);

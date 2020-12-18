@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProyectoFinal.EstructurasdeDatos
+namespace ProyectoFinal.EstructurasdeDatos.Grafos
 {
     public partial class Grafos : Form
     {

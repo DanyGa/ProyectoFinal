@@ -21,35 +21,40 @@ namespace ProyectoFinal
         {
             EstructurasdeDatos.Listas hana = new EstructurasdeDatos.Listas();
             hana.Show();
-            this.Close();
+            Hide();
         }
 
         private void btnPila_Click(object sender, EventArgs e)
         {
             EstructurasdeDatos.Pilas dul = new EstructurasdeDatos.Pilas();
             dul.Show();
-            this.Close();
+            Hide();
         }
 
         private void btnCola_Click(object sender, EventArgs e)
         {
             EstructurasdeDatos.Colas set = new EstructurasdeDatos.Colas();
             set.Show();
-            this.Close();
+            Hide();
         }
 
         private void btnGrafo_Click(object sender, EventArgs e)
         {
-            EstructurasdeDatos.Grafos net = new EstructurasdeDatos.Grafos();
+            EstructurasdeDatos.Grafos.Grafos net = new EstructurasdeDatos.Grafos.Grafos();          
             net.Show();
-            this.Close();
+            Hide();
         }
 
         private void btnArbol_Click(object sender, EventArgs e)
         {
             EstructurasdeDatos.Arboles daseot = new EstructurasdeDatos.Arboles();
             daseot.Show();
-            this.Close();
+            Hide();
+        }
+
+        private void MenuEstructuras_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
