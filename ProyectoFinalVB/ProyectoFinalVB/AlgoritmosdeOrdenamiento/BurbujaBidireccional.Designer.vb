@@ -249,7 +249,7 @@ Partial Class BurbujaBidireccional
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional
-        Me.MenuStrip1.Size = New System.Drawing.Size(875, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(921, 28)
         Me.MenuStrip1.TabIndex = 11
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -276,7 +276,7 @@ Partial Class BurbujaBidireccional
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(875, 578)
+        Me.ClientSize = New System.Drawing.Size(921, 578)
         Me.ControlBox = False
         Me.Controls.Add(Me.lblTitulo)
         Me.Controls.Add(Me.gbTiempo)
