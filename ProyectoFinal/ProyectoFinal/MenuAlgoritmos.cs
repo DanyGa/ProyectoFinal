@@ -30,5 +30,12 @@ namespace ProyectoFinal
             i.Show();
             this.Close();
         }
+
+        private void btnCuentas_Click(object sender, EventArgs e)
+        {
+            AlgoritmosdeOdenamiento.Cuentas sam = new AlgoritmosdeOdenamiento.Cuentas();
+            sam.Show();
+            this.Close();
+        }
     }
 }

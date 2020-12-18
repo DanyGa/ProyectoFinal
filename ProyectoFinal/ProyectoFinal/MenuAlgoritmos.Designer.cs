@@ -33,6 +33,7 @@
             this.btnBurbuja = new System.Windows.Forms.Button();
             this.btnBurbujaB = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnCuentas = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lAl
@@ -85,12 +86,26 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Selecciona un tipo de Algoritmo de Ordenamiento";
             // 
+            // btnCuentas
+            // 
+            this.btnCuentas.BackColor = System.Drawing.Color.Snow;
+            this.btnCuentas.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold);
+            this.btnCuentas.ForeColor = System.Drawing.Color.Crimson;
+            this.btnCuentas.Location = new System.Drawing.Point(226, 265);
+            this.btnCuentas.Name = "btnCuentas";
+            this.btnCuentas.Size = new System.Drawing.Size(150, 67);
+            this.btnCuentas.TabIndex = 4;
+            this.btnCuentas.Text = "Cuentas";
+            this.btnCuentas.UseVisualStyleBackColor = false;
+            this.btnCuentas.Click += new System.EventHandler(this.btnCuentas_Click);
+            // 
             // MenuAlgoritmos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(729, 485);
+            this.Controls.Add(this.btnCuentas);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnBurbujaB);
             this.Controls.Add(this.btnBurbuja);
@@ -109,5 +124,6 @@
         private System.Windows.Forms.Button btnBurbuja;
         private System.Windows.Forms.Button btnBurbujaB;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnCuentas;
     }
 }

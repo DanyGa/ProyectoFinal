@@ -37,7 +37,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "ListaSimpleCircular";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ListaSimpleCircular";
+            this.Text = "Lista Simple Circular";
             this.ResumeLayout(false);
 
         }
