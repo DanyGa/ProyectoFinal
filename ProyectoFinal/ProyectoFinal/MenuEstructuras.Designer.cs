@@ -29,26 +29,26 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuEstructuras));
-            this.lEs = new System.Windows.Forms.Label();
+            this.lblTitulo = new System.Windows.Forms.Label();
             this.btnListas = new System.Windows.Forms.Button();
             this.btnGrafo = new System.Windows.Forms.Button();
             this.btnPila = new System.Windows.Forms.Button();
             this.btnArbol = new System.Windows.Forms.Button();
             this.btnCola = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblInst = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // lEs
+            // lblTitulo
             // 
-            this.lEs.AutoSize = true;
-            this.lEs.BackColor = System.Drawing.Color.Transparent;
-            this.lEs.Font = new System.Drawing.Font("Elephant", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lEs.ForeColor = System.Drawing.Color.Snow;
-            this.lEs.Location = new System.Drawing.Point(54, 44);
-            this.lEs.Name = "lEs";
-            this.lEs.Size = new System.Drawing.Size(505, 55);
-            this.lEs.TabIndex = 0;
-            this.lEs.Text = "Estructuras de Datos";
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitulo.Font = new System.Drawing.Font("Elephant", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.ForeColor = System.Drawing.Color.Snow;
+            this.lblTitulo.Location = new System.Drawing.Point(54, 44);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(505, 55);
+            this.lblTitulo.TabIndex = 0;
+            this.lblTitulo.Text = "Estructuras de Datos";
             // 
             // btnListas
             // 
@@ -115,17 +115,17 @@
             this.btnCola.UseVisualStyleBackColor = false;
             this.btnCola.Click += new System.EventHandler(this.btnCola_Click);
             // 
-            // label1
+            // lblInst
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Modern No. 20", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Olive;
-            this.label1.Location = new System.Drawing.Point(141, 99);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(366, 25);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Selecciona un tipo de Estructura";
+            this.lblInst.AutoSize = true;
+            this.lblInst.BackColor = System.Drawing.Color.Transparent;
+            this.lblInst.Font = new System.Drawing.Font("Modern No. 20", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInst.ForeColor = System.Drawing.Color.Olive;
+            this.lblInst.Location = new System.Drawing.Point(141, 99);
+            this.lblInst.Name = "lblInst";
+            this.lblInst.Size = new System.Drawing.Size(366, 25);
+            this.lblInst.TabIndex = 6;
+            this.lblInst.Text = "Selecciona un tipo de Estructura";
             // 
             // MenuEstructuras
             // 
@@ -133,13 +133,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(634, 391);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblInst);
             this.Controls.Add(this.btnCola);
             this.Controls.Add(this.btnArbol);
             this.Controls.Add(this.btnPila);
             this.Controls.Add(this.btnGrafo);
             this.Controls.Add(this.btnListas);
-            this.Controls.Add(this.lEs);
+            this.Controls.Add(this.lblTitulo);
             this.Name = "MenuEstructuras";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Estructuras de Datos";
@@ -150,12 +150,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lEs;
+        private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Button btnListas;
         private System.Windows.Forms.Button btnGrafo;
         private System.Windows.Forms.Button btnPila;
         private System.Windows.Forms.Button btnArbol;
         private System.Windows.Forms.Button btnCola;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblInst;
     }
 }
