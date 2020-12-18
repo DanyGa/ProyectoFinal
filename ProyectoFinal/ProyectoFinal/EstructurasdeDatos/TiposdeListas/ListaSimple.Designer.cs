@@ -58,7 +58,7 @@
             this.lblTitulo.ForeColor = System.Drawing.Color.DarkRed;
             this.lblTitulo.Location = new System.Drawing.Point(242, 39);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(255, 47);
+            this.lblTitulo.Size = new System.Drawing.Size(263, 49);
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "Lista Simple";
             // 
@@ -119,7 +119,7 @@
             // 
             // txtDatoBorrar
             // 
-            this.txtDatoBorrar.Location = new System.Drawing.Point(227, 388);
+            this.txtDatoBorrar.Location = new System.Drawing.Point(238, 388);
             this.txtDatoBorrar.Name = "txtDatoBorrar";
             this.txtDatoBorrar.Size = new System.Drawing.Size(100, 22);
             this.txtDatoBorrar.TabIndex = 6;
@@ -155,7 +155,7 @@
             this.btnBorrar.BackColor = System.Drawing.Color.Snow;
             this.btnBorrar.Font = new System.Drawing.Font("Modern No. 20", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBorrar.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnBorrar.Location = new System.Drawing.Point(353, 378);
+            this.btnBorrar.Location = new System.Drawing.Point(364, 378);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(85, 40);
             this.btnBorrar.TabIndex = 9;
@@ -170,7 +170,7 @@
             this.btnMostrar.ForeColor = System.Drawing.Color.DarkRed;
             this.btnMostrar.Location = new System.Drawing.Point(561, 109);
             this.btnMostrar.Name = "btnMostrar";
-            this.btnMostrar.Size = new System.Drawing.Size(98, 45);
+            this.btnMostrar.Size = new System.Drawing.Size(118, 45);
             this.btnMostrar.TabIndex = 10;
             this.btnMostrar.Text = "Mostrar";
             this.btnMostrar.UseVisualStyleBackColor = false;
@@ -183,7 +183,7 @@
             this.btnContar.ForeColor = System.Drawing.Color.DarkRed;
             this.btnContar.Location = new System.Drawing.Point(561, 171);
             this.btnContar.Name = "btnContar";
-            this.btnContar.Size = new System.Drawing.Size(98, 45);
+            this.btnContar.Size = new System.Drawing.Size(118, 45);
             this.btnContar.TabIndex = 11;
             this.btnContar.Text = "Contar";
             this.btnContar.UseVisualStyleBackColor = false;
@@ -196,7 +196,7 @@
             this.btnCargar.ForeColor = System.Drawing.Color.DarkRed;
             this.btnCargar.Location = new System.Drawing.Point(561, 236);
             this.btnCargar.Name = "btnCargar";
-            this.btnCargar.Size = new System.Drawing.Size(98, 45);
+            this.btnCargar.Size = new System.Drawing.Size(118, 45);
             this.btnCargar.TabIndex = 12;
             this.btnCargar.Text = "Cargar";
             this.btnCargar.UseVisualStyleBackColor = false;
@@ -209,7 +209,7 @@
             this.btnGuardarArchivo.ForeColor = System.Drawing.Color.DarkRed;
             this.btnGuardarArchivo.Location = new System.Drawing.Point(561, 301);
             this.btnGuardarArchivo.Name = "btnGuardarArchivo";
-            this.btnGuardarArchivo.Size = new System.Drawing.Size(98, 45);
+            this.btnGuardarArchivo.Size = new System.Drawing.Size(118, 45);
             this.btnGuardarArchivo.TabIndex = 13;
             this.btnGuardarArchivo.Text = "Guardar";
             this.btnGuardarArchivo.UseVisualStyleBackColor = false;
@@ -226,7 +226,7 @@
             this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(702, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(727, 28);
             this.menuStrip1.TabIndex = 14;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -256,7 +256,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(702, 444);
+            this.ClientSize = new System.Drawing.Size(727, 444);
             this.Controls.Add(this.btnGuardarArchivo);
             this.Controls.Add(this.btnCargar);
             this.Controls.Add(this.btnContar);

@@ -41,10 +41,10 @@
             this.btnGenerar = new System.Windows.Forms.Button();
             this.btnOrdenar = new System.Windows.Forms.Button();
             this.gbTiempo = new System.Windows.Forms.GroupBox();
-            this.lOrdenar = new System.Windows.Forms.Label();
+            this.lblOrdenar = new System.Windows.Forms.Label();
             this.lOrd = new System.Windows.Forms.Label();
-            this.lComparaciones = new System.Windows.Forms.Label();
-            this.lIntercambios = new System.Windows.Forms.Label();
+            this.lblComparaciones = new System.Windows.Forms.Label();
+            this.lblIntercambios = new System.Windows.Forms.Label();
             this.lCom = new System.Windows.Forms.Label();
             this.lInt = new System.Windows.Forms.Label();
             this.algoritmosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -171,10 +171,10 @@
             // gbTiempo
             // 
             this.gbTiempo.BackColor = System.Drawing.Color.Snow;
-            this.gbTiempo.Controls.Add(this.lOrdenar);
+            this.gbTiempo.Controls.Add(this.lblOrdenar);
             this.gbTiempo.Controls.Add(this.lOrd);
-            this.gbTiempo.Controls.Add(this.lComparaciones);
-            this.gbTiempo.Controls.Add(this.lIntercambios);
+            this.gbTiempo.Controls.Add(this.lblComparaciones);
+            this.gbTiempo.Controls.Add(this.lblIntercambios);
             this.gbTiempo.Controls.Add(this.lCom);
             this.gbTiempo.Controls.Add(this.lInt);
             this.gbTiempo.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -186,15 +186,15 @@
             this.gbTiempo.TabStop = false;
             this.gbTiempo.Text = "Tiempo de ejecucion:";
             // 
-            // lOrdenar
+            // lblOrdenar
             // 
-            this.lOrdenar.AutoSize = true;
-            this.lOrdenar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lOrdenar.Location = new System.Drawing.Point(93, 100);
-            this.lOrdenar.Name = "lOrdenar";
-            this.lOrdenar.Size = new System.Drawing.Size(28, 17);
-            this.lOrdenar.TabIndex = 5;
-            this.lOrdenar.Text = "0:0";
+            this.lblOrdenar.AutoSize = true;
+            this.lblOrdenar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOrdenar.Location = new System.Drawing.Point(93, 100);
+            this.lblOrdenar.Name = "lblOrdenar";
+            this.lblOrdenar.Size = new System.Drawing.Size(28, 17);
+            this.lblOrdenar.TabIndex = 5;
+            this.lblOrdenar.Text = "0:0";
             // 
             // lOrd
             // 
@@ -205,25 +205,25 @@
             this.lOrd.TabIndex = 4;
             this.lOrd.Text = "Ordenar:";
             // 
-            // lComparaciones
+            // lblComparaciones
             // 
-            this.lComparaciones.AutoSize = true;
-            this.lComparaciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lComparaciones.Location = new System.Drawing.Point(144, 65);
-            this.lComparaciones.Name = "lComparaciones";
-            this.lComparaciones.Size = new System.Drawing.Size(16, 17);
-            this.lComparaciones.TabIndex = 3;
-            this.lComparaciones.Text = "0";
+            this.lblComparaciones.AutoSize = true;
+            this.lblComparaciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblComparaciones.Location = new System.Drawing.Point(144, 65);
+            this.lblComparaciones.Name = "lblComparaciones";
+            this.lblComparaciones.Size = new System.Drawing.Size(16, 17);
+            this.lblComparaciones.TabIndex = 3;
+            this.lblComparaciones.Text = "0";
             // 
-            // lIntercambios
+            // lblIntercambios
             // 
-            this.lIntercambios.AutoSize = true;
-            this.lIntercambios.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lIntercambios.Location = new System.Drawing.Point(125, 31);
-            this.lIntercambios.Name = "lIntercambios";
-            this.lIntercambios.Size = new System.Drawing.Size(16, 17);
-            this.lIntercambios.TabIndex = 2;
-            this.lIntercambios.Text = "0";
+            this.lblIntercambios.AutoSize = true;
+            this.lblIntercambios.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIntercambios.Location = new System.Drawing.Point(125, 31);
+            this.lblIntercambios.Name = "lblIntercambios";
+            this.lblIntercambios.Size = new System.Drawing.Size(16, 17);
+            this.lblIntercambios.TabIndex = 2;
+            this.lblIntercambios.Text = "0";
             // 
             // lCom
             // 
@@ -325,10 +325,10 @@
         private System.Windows.Forms.Button btnGenerar;
         private System.Windows.Forms.Button btnOrdenar;
         private System.Windows.Forms.GroupBox gbTiempo;
-        private System.Windows.Forms.Label lOrdenar;
+        private System.Windows.Forms.Label lblOrdenar;
         private System.Windows.Forms.Label lOrd;
-        private System.Windows.Forms.Label lComparaciones;
-        private System.Windows.Forms.Label lIntercambios;
+        private System.Windows.Forms.Label lblComparaciones;
+        private System.Windows.Forms.Label lblIntercambios;
         private System.Windows.Forms.Label lCom;
         private System.Windows.Forms.Label lInt;
         private System.Windows.Forms.ToolStripMenuItem algoritmosToolStripMenuItem;

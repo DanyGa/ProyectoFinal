@@ -78,16 +78,16 @@ namespace ProyectoFinal.AlgoritmosdeOdenamiento
                 }
                 izq = ultimo;
 
-                lComparaciones.Text = comparaciones.ToString() + " Comparaciones";
-                lIntercambios.Text = intercambio.ToString() + " Intercambios";
-                return;
-
             } while (izq < der);
+
+            lblComparaciones.Text = comparaciones.ToString() + " Comparaciones";
+            lblIntercambios.Text = intercambio.ToString() + " Intercambios";
+            return;
         }
 
-        public void Mostrar(int n, ListBox l)
+        public void Mostrar(ListBox l)
         {
-            for (i = 0; i < n; i++)
+            for (i = 0; i < vector.Length; i++)
             {
                 l.Items.Add(vector[i]);
             }
@@ -103,7 +103,7 @@ namespace ProyectoFinal.AlgoritmosdeOdenamiento
                 min = int.Parse(txtMin.Text);
                 max = int.Parse(txtMax.Text);
                 GenerarDatos(n, min, max);
-                Mostrar(n, lbNum);
+                Mostrar(lbNum);
                 btnGenerar.Enabled = false;
                 btnOrdenar.Enabled = true;
             }
@@ -118,8 +118,8 @@ namespace ProyectoFinal.AlgoritmosdeOdenamiento
             contador.Restart();
             Metodo(n);
             contador.Stop();
-            lOrdenar.Text = contador.Elapsed.TotalMilliseconds.ToString() + " Milisegundos";
-            Mostrar(n, lbOrd);
+            lblOrdenar.Text = contador.Elapsed.TotalMilliseconds.ToString() + " Milisegundos";
+            Mostrar(lbOrd);
             btnGenerar.Enabled = true;
             btnOrdenar.Enabled = false;
         }

@@ -70,6 +70,8 @@
     <Compile Include="EstructurasdeDatos\Arboles.Designer.cs">
       <DependentUpon>Arboles.cs</DependentUpon>
     </Compile>
+    <Compile Include="EstructurasdeDatos\CColas\Cola.cs" />
+    <Compile Include="EstructurasdeDatos\CColas\Nodo.cs" />
     <Compile Include="EstructurasdeDatos\Colas.cs">
       <SubType>Form</SubType>
     </Compile>
