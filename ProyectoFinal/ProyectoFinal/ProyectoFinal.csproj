@@ -99,6 +99,7 @@
       <DependentUpon>Pilas.cs</DependentUpon>
     </Compile>
     <Compile Include="EstructurasdeDatos\TiposdeListas\CListaDoble\LD.cs" />
+    <Compile Include="EstructurasdeDatos\TiposdeListas\CListaSimpleCircular\LSC.cs" />
     <Compile Include="EstructurasdeDatos\TiposdeListas\CListaSimple\LS.cs" />
     <Compile Include="EstructurasdeDatos\TiposdeListas\ListaDoble.cs">
       <SubType>Form</SubType>
@@ -214,7 +215,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="EstructurasdeDatos\TiposdeListas\CListaDobleCircular\" />
-    <Folder Include="EstructurasdeDatos\TiposdeListas\CListaSimpleCircular\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
