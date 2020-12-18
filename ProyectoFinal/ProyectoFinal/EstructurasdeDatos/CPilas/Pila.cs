@@ -22,12 +22,26 @@ namespace ProyectoFinal.EstructurasdeDatos.CPilas
             }
         }
 
+        public int Count
+        {
+            get
+            {
+                int c = 0;
+                Nodo t = top;
+                while (top != null)
+                {
+                    c++;
+                    //aqui hay un error
+                    t = t.Siguiente;
+                }
+                return c;
+            }
+        }
+
         public Pila()
         {
             top = null;
         }
-
-        //operaciones
 
         public void Push(Nodo n)
         {
@@ -44,19 +58,27 @@ namespace ProyectoFinal.EstructurasdeDatos.CPilas
             }
             return regreso;
         }
-
-        public int Count
+        public override string ToString()
         {
-            get
+            string lista = "";
+            Nodo t = top;
+            if (t != null)
             {
-                int c = 0;
-                Nodo t = top;
-                while (top != null)
+                lista += t.ToString();
+                t = t.Siguiente;
+                while (t != null)
                 {
-                    c++;
+                    lista += "," + t.ToString();
                     t = t.Siguiente;
                 }
-                return c;
+                lista += ".";
+                lista = lista.Replace(".", "");
+                return lista;
+
+            }
+            else
+            {
+                return "La lista esta vacia";
             }
         }
     }
