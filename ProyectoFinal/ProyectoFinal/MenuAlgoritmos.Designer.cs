@@ -39,7 +39,7 @@
             // lAl
             // 
             this.lAl.AutoSize = true;
-            this.lAl.BackColor = System.Drawing.Color.Transparent;
+            this.lAl.BackColor = System.Drawing.Color.Snow;
             this.lAl.Font = new System.Drawing.Font("Elephant", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lAl.ForeColor = System.Drawing.Color.Crimson;
             this.lAl.Location = new System.Drawing.Point(38, 19);
@@ -77,14 +77,14 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.BackColor = System.Drawing.Color.Snow;
             this.label1.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Crimson;
-            this.label1.Location = new System.Drawing.Point(43, 74);
+            this.label1.Location = new System.Drawing.Point(37, 74);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(621, 30);
+            this.label1.Size = new System.Drawing.Size(645, 30);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Selecciona un tipo de Algoritmo de Ordenamiento";
+            this.label1.Text = " Selecciona un tipo de Algoritmo de Ordenamiento  ";
             // 
             // btnCuentas
             // 
